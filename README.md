@@ -1,4 +1,6 @@
-# Middleware for Swagger projects
+# Middleware for Open API (Swagger) projects
 
-Check out [Swagger](https://www.npmjs.com/package/swagger) for all your Swagger utility
-and Swagger-driven API project needs!
+This middleware is used by the [Swagger](https://www.npmjs.com/package/swagger) project. It is designed to handle all your Open API-driven project needs with minimal fuss - and maximal flexibility.
+
+### Important!
+This is primarily a wrapper for the [swagger-node-runner](https://github.com/theganyo/swagger-node-runner) project. Be sure to follow that project and read the release notes there! 
