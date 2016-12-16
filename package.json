@@ -1,6 +1,6 @@
 {
   "name": "swagger-express-mw",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Swagger loader and middleware for express",
   "keywords": [
     "swagger",
