@@ -19,7 +19,7 @@
     "swagger-node-runner": "^0.7.0"
   },
   "devDependencies": {
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.15",
     "mocha": "^2.2.1",
     "should": "^5.2.0"
   },
