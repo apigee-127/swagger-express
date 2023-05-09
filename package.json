@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "lodash": "^3.9.3",
-    "mocha": "^2.2.1",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "should": "^5.2.0"
   },
