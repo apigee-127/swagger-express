@@ -1,6 +1,6 @@
 {
-  "name": "swagger-express-mw",
-  "version": "0.7.0",
+  "name": "autodesk-forks-swagger-express-mw",
+  "version": "0.8.0",
   "description": "Swagger loader and middleware for express",
   "keywords": [
     "swagger",
@@ -8,13 +8,28 @@
     "apis",
     "connect"
   ],
-  "author": "Scott Ganyo <sganyo@apigee.com>",
+  "maintainers": [
+    {
+      "name": "Scott Ganyo",
+      "email": "sganyo@apigee.com",
+      "url": "https://github.com/theganyo"
+    },
+    {
+      "name": "Daniel Golub",
+      "email": "danielg6666@gmail.com",
+      "url": "https://github.com/danielgolub"
+    }
+  ],
   "license": "MIT",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apigee-127/swagger-express.git"
+    "url": "https://github.com/autodesk-forks/swagger-express.git"
   },
+  "bugs": {
+    "url": "https://github.com/autodesk-forks/swagger-express/issues"
+  },
+  "homepage": "https://github.com/autodesk-forks/swagger-express",
   "devDependencies": {
     "lodash": "^4.17.21",
     "mocha": "^10.2.0",
@@ -26,6 +41,6 @@
     "coverage": "nyc mocha -R spec test test/lib"
   },
   "dependencies": {
-    "swagger-node-runner": "github:autodesk-forks/swagger-node-runner#784cdf2661361afb7e982049112b66ba00204b9c"
+    "autodesk-forks-swagger-node-runner": "0.8.1"
   }
 }
