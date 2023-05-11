@@ -26,6 +26,6 @@
     "coverage": "nyc mocha -R spec test test/lib"
   },
   "dependencies": {
-    "swagger-node-runner": "git+https://git@github.com/autodesk-forks/swagger-node-runner.git"
+    "swagger-node-runner": "github:autodesk-forks/swagger-node-runner#784cdf2661361afb7e982049112b66ba00204b9c"
   }
 }
