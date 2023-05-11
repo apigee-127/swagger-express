@@ -15,16 +15,17 @@
     "type": "git",
     "url": "https://github.com/apigee-127/swagger-express.git"
   },
-  "dependencies": {
-    "swagger-node-runner": "^0.7.0"
-  },
   "devDependencies": {
-    "lodash": "^3.9.3",
-    "mocha": "^2.2.1",
-    "should": "^5.2.0"
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "should": "^13.2.3"
   },
   "scripts": {
-    "test": "mocha -u exports -R spec test test/lib",
-    "coverage": "istanbul cover _mocha -- -u exports -R spec test test/lib"
+    "test": "mocha -R spec test test/lib",
+    "coverage": "nyc mocha -R spec test test/lib"
+  },
+  "dependencies": {
+    "swagger-node-runner": "github:autodesk-forks/swagger-node-runner#784cdf2661361afb7e982049112b66ba00204b9c"
   }
 }
