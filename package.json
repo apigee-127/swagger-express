@@ -16,7 +16,7 @@
     "url": "https://github.com/apigee-127/swagger-express.git"
   },
   "dependencies": {
-    "swagger-node-runner": "jfanjoy/swagger-node-runner"
+    "swagger-node-runner": "github:jfanjoy/swagger-node-runner#cve/2022-24434"
   },
   "devDependencies": {
     "lodash": "^4.17.15",
